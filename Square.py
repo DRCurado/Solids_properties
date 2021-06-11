@@ -30,5 +30,5 @@ print("CGx: "+str(Cgx)+unit);
 print("CGy: "+str(Cgy)+unit);
 print("-----------------");
 print("Moment of inertia:");
-print("X axix: "+str(Ix)+unit+"^4");
-print("Y axix: "+str(Iy)+unit+"^4");
+print("X axix: "+str(Ix)[0:7]+unit+"^4");
+print("Y axix: "+str(Iy)[0:9]+unit+"^4");
